@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<auction-navbar></auction-navbar>
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-3">
+      <auction-search></auction-search>
+    </div>
+
+    <div class="col-md-9">
+
+          <!--this is where the home component will have begin -->
+
+        <router-outlet></router-outlet>
+
+      <!--end of home component  -->
+
+    </div>
+
+
+
+  </div>
+</div>
+
+<auction-footer></auction-footer>
