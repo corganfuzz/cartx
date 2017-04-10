@@ -11,15 +11,15 @@ import  ProductItemComponent  from './components/product-item/product-item.compo
 import  SearchComponent  from './components/search/search.component';
 import  StarsComponent  from './components/stars/stars.component';
 import  { ProductService }  from './services/product-service';
-import HomeComponent from "./components/home/home.component";
-import ProductDetailComponent from "./components/product-detail/product-detail.component";
+import HomeComponent from './components/home/home.component';
+import ProductDetailComponent from './components/product-detail/product-detail.component';
 
 
 @NgModule({
   imports:      [ BrowserModule,
                   RouterModule.forRoot([
                     { path: '', component: HomeComponent },
-                    { path: 'products/:prodTitle', component: ProductDetailComponent }
+                    { path: 'products/:productId', component: ProductDetailComponent }
 
                   ])
   ],
